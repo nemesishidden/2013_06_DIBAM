@@ -87,7 +87,7 @@ var app = {
         });
     },
     cambioPagina: function(){
-        app.buscarLibro(9789568410575)
+        //app.buscarLibro(9789568410575)
         var pag = '#'+this.id+'Pag';
         $.mobile.changePage( pag, { transition: "slide"} );
         console.log('this.cambioPagina');
